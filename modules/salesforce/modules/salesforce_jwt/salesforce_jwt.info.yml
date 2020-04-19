@@ -1,0 +1,14 @@
+name: Salesforce JWT Auth Provider
+type: module
+description: Provides key-based Salesforce authentication.
+core: 8.x
+package: Salesforce
+configure: salesforce.auth_config
+dependencies:
+  - salesforce:salesforce
+  - key:key
+
+# Information added by Drupal.org packaging script on 2020-01-03
+version: '8.x-4.0'
+project: 'salesforce'
+datestamp: 1578083895

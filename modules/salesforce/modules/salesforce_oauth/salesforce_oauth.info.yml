@@ -1,0 +1,13 @@
+name: Salesforce OAuth user-agent Provider
+type: module
+description: Provides user-agent-based Salesforce OAuth authentication.
+core: 8.x
+package: Salesforce
+configure: salesforce.auth_config
+dependencies:
+  - salesforce
+
+# Information added by Drupal.org packaging script on 2020-01-03
+version: '8.x-4.0'
+project: 'salesforce'
+datestamp: 1578083895

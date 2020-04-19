@@ -1,0 +1,4 @@
+name: Drupal Up Links example
+description: Showing how to add link to our custom module
+type: module
+core: 8.x

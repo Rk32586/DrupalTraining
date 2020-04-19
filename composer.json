@@ -1,0 +1,12 @@
+{
+    "name": "rahkum01/drupal-training",
+    "require": {
+        "symfony/finder": "^5.0"
+    },
+    "authors": [
+        {
+            "name": "Rahul Kumar",
+            "email": "rahul@drupaltraining.com"
+        }
+    ]
+}

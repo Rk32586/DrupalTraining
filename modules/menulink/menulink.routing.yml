@@ -1,0 +1,7 @@
+menulink.default:
+  path: "menulink/menu_link"
+  defaults:
+    _title: "Our Main Link Page"
+    _controller: '\Drupal\menulink\Controller\menulinkController::mainLinkPage'
+  requirements:
+    _permission: "access content"

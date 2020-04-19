@@ -1,0 +1,13 @@
+name: Salesforce Integration
+type: module
+description: Modules to integrate Drupal and Salesforce
+package: Salesforce
+core: 8.x
+configure: salesforce.admin_config_salesforce
+dependencies:
+  typed_data:typed_data
+
+# Information added by Drupal.org packaging script on 2020-01-03
+version: '8.x-4.0'
+project: 'salesforce'
+datestamp: 1578083895
