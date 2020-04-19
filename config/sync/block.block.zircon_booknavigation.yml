@@ -1,0 +1,21 @@
+uuid: 6f96e0e7-f7af-4a52-b5bb-f814a29af8a8
+langcode: en
+status: true
+dependencies:
+  module:
+    - book
+  theme:
+    - zircon
+id: zircon_booknavigation
+theme: zircon
+region: sidebar_first
+weight: -7
+provider: null
+plugin: book_navigation
+settings:
+  id: book_navigation
+  label: 'Book navigation'
+  provider: book
+  label_display: visible
+  block_mode: 'all pages'
+visibility: {  }

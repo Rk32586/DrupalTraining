@@ -1,0 +1,13 @@
+label: 'Nouveaux membres'
+display:
+  default:
+    display_options:
+      exposed_form:
+        options:
+          reset_button_label: Réinitialiser
+      title: 'Nouveaux membres'
+  block_1:
+    display_title: 'Nouveaux membres'
+    display_options:
+      block_description: 'Nouveaux membres'
+      block_category: Utilisateur

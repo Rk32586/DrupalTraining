@@ -1,0 +1,17 @@
+display:
+  default:
+    display_options:
+      exposed_form:
+        options:
+          reset_button_label: Réinitialiser
+      fields:
+        info:
+          label: 'Description du bloc'
+        operations:
+          label: Actions
+      filters:
+        info:
+          expose:
+            label: 'Description du bloc'
+  page_1:
+    display_title: Page

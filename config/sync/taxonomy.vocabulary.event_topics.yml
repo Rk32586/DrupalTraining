@@ -1,0 +1,8 @@
+uuid: 32228804-737d-4045-980a-1e38999cd0c1
+langcode: en
+status: true
+dependencies: {  }
+name: 'Event Topics'
+vid: event_topics
+description: 'This is where we track the topics for dupal'
+weight: 0

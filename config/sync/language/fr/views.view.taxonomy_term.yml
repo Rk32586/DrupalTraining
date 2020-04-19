@@ -1,0 +1,13 @@
+label: 'Terme de taxonomie'
+display:
+  default:
+    display_options:
+      exposed_form:
+        options:
+          reset_button_label: Réinitialiser
+      arguments:
+        tid:
+          exception:
+            title: Tout
+  page_1:
+    display_title: Page

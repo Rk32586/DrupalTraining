@@ -1,0 +1,20 @@
+uuid: a4e6661a-2306-47f0-b075-895372877b1b
+langcode: en
+status: true
+dependencies:
+  module:
+    - rsvplist
+  theme:
+    - bartik
+id: rsvpblock
+theme: bartik
+region: sidebar_first
+weight: 0
+provider: null
+plugin: rsvp_block
+settings:
+  id: rsvp_block
+  label: 'RSVP Block'
+  provider: rsvplist
+  label_display: visible
+visibility: {  }

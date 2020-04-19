@@ -1,0 +1,39 @@
+uuid: 0feaa939-b737-4433-9e5c-322dc4826a9b
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:c5f5160f-e44e-4ef4-be3d-0b843e66063a'
+  module:
+    - block_content
+    - system
+    - user
+  theme:
+    - eg
+id: eg_welcometodrupalvilles
+theme: eg
+region: sidebar_first
+weight: -8
+provider: null
+plugin: 'block_content:c5f5160f-e44e-4ef4-be3d-0b843e66063a'
+settings:
+  id: 'block_content:c5f5160f-e44e-4ef4-be3d-0b843e66063a'
+  label: 'Welcome to Drupalvilles'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }
+  user_role:
+    id: user_role
+    roles:
+      anonymous: anonymous
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'

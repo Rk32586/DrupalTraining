@@ -1,0 +1,21 @@
+uuid: 559a150b-3457-4279-8d86-cf780ae8ba63
+langcode: en
+status: true
+dependencies:
+  module:
+    - book
+  theme:
+    - mayo
+id: mayo_booknavigation
+theme: mayo
+region: sidebar_first
+weight: -7
+provider: null
+plugin: book_navigation
+settings:
+  id: book_navigation
+  label: 'Book navigation'
+  provider: book
+  label_display: visible
+  block_mode: 'all pages'
+visibility: {  }

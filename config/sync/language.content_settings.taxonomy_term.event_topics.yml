@@ -1,0 +1,18 @@
+uuid: f8db768d-ad10-48d1-b553-6e19e8609ee1
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.event_topics
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: taxonomy_term.event_topics
+target_entity_type_id: taxonomy_term
+target_bundle: event_topics
+default_langcode: site_default
+language_alterable: false

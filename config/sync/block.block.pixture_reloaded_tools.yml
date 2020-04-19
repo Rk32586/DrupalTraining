@@ -1,0 +1,27 @@
+uuid: a4ee60cb-c47a-408e-8d33-e5369e283fa0
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.tools
+  module:
+    - system
+  theme:
+    - pixture_reloaded
+_core:
+  default_config_hash: dS8tlHq6hXlInnZO-rBzQ8KdIS2D4PxNuM0xcrr6f80
+id: pixture_reloaded_tools
+theme: pixture_reloaded
+region: sidebar_second
+weight: 10
+provider: null
+plugin: 'system_menu_block:tools'
+settings:
+  id: 'system_menu_block:tools'
+  label: Tools
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

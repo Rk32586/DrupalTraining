@@ -1,0 +1,5 @@
+label: 'In spanish'
+display:
+  default:
+    display_options:
+      title: 'in spanish'

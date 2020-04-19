@@ -1,0 +1,8 @@
+uuid: 0b046b42-fda9-40e5-8faf-0048175d13d6
+langcode: en
+status: true
+dependencies: {  }
+id: demo-menu
+label: 'Demo menu'
+description: Demo
+locked: false

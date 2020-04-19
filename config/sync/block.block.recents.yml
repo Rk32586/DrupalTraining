@@ -1,0 +1,25 @@
+uuid: 5bb277bf-29a1-4a30-8878-4694734f93f2
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.recents
+  module:
+    - system
+  theme:
+    - bartik
+id: recents
+theme: bartik
+region: sidebar_first
+weight: -6
+provider: null
+plugin: 'system_menu_block:recents'
+settings:
+  id: 'system_menu_block:recents'
+  label: Recents
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 2
+  expand_all_items: false
+visibility: {  }

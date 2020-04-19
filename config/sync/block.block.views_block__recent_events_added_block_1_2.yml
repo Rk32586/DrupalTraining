@@ -1,0 +1,32 @@
+uuid: 9308bab0-d1ba-4463-a7dd-1413e05b4f1e
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.recent_events_added
+  module:
+    - ctools
+    - views
+  theme:
+    - bartik
+id: views_block__recent_events_added_block_1_2
+theme: bartik
+region: sidebar_first
+weight: -8
+provider: null
+plugin: 'views_block:recent_events_added-block_1'
+settings:
+  id: 'views_block:recent_events_added-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: '5'
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    bundles:
+      events: events
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

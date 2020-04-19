@@ -1,0 +1,16 @@
+display:
+  default:
+    display_options:
+      exposed_form:
+        options:
+          reset_button_label: Réinitialiser
+      filters:
+        access:
+          expose:
+            label: 'Dernier accès'
+            description: 'Durée pendant laquelle on considère qu''un utilisateur est en ligne après qu''il ait vu une page pour la dernière fois.'
+      title: 'Utilisateurs en ligne'
+  who_s_online_block:
+    display_title: 'Utilisateurs en ligne'
+    display_options:
+      block_description: 'Utilisateurs en ligne'

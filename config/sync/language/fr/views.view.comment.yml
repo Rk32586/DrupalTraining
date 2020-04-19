@@ -1,0 +1,57 @@
+label: Commentaires
+display:
+  default:
+    display_options:
+      exposed_form:
+        options:
+          reset_button_label: Réinitialiser
+      pager:
+        options:
+          tags:
+            previous: "‹\_précédent"
+            next: "suivant\_›"
+            first: "«\_premier"
+            last: "dernier\_»"
+      fields:
+        subject:
+          label: Objet
+        name:
+          label: Auteur
+        entity_id:
+          label: 'Posté sur'
+        operations:
+          label: Actions
+      filters:
+        subject:
+          expose:
+            label: Objet
+        langcode:
+          expose:
+            label: Langue
+      title: Commentaires
+      empty:
+        area_text_custom:
+          content: 'Aucun commentaire disponible.'
+  page_published:
+    display_title: 'Commentaires publiés'
+    display_options:
+      menu:
+        title: Commentaires
+  page_unapproved:
+    display_options:
+      filters:
+        subject:
+          expose:
+            label: Objet
+        langcode:
+          expose:
+            label: Langue
+      fields:
+        subject:
+          label: Objet
+        name:
+          label: Auteur
+        entity_id:
+          label: 'Posté sur'
+        operations:
+          label: Actions

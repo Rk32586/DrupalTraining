@@ -1,0 +1,22 @@
+uuid: 23267632-fe86-44e6-ae07-1a48953e8487
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: events
+label: Events
+type: 'canonical_entities:node'
+pattern: 'event/[node:title]'
+selection_criteria:
+  fec1d423-21da-4b58-8d9f-65513ae65fc7:
+    id: node_type
+    bundles:
+      events: events
+    negate: false
+    context_mapping:
+      node: node
+    uuid: fec1d423-21da-4b58-8d9f-65513ae65fc7
+selection_logic: and
+weight: -5
+relationships: {  }

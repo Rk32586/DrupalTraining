@@ -1,0 +1,17 @@
+display:
+  default:
+    display_options:
+      exposed_form:
+        options:
+          reset_button_label: Réinitialiser
+      fields:
+        title:
+          label: Titre
+        name:
+          label: Auteur
+        changed:
+          label: 'Dernière mise à jour'
+  attachment_1:
+    display_title: 'Fichier attaché'
+  page_1:
+    display_title: Page

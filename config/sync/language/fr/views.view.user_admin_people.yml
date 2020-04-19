@@ -1,0 +1,40 @@
+display:
+  default:
+    display_options:
+      exposed_form:
+        options:
+          submit_button: Filtrer
+          reset_button_label: Réinitialiser
+      fields:
+        name:
+          label: 'Nom d''utilisateur'
+        status:
+          label: État
+          settings:
+            format_custom_true: Actif
+            format_custom_false: Bloqué
+        roles_target_id:
+          label: Rôles
+        created:
+          label: 'Membre depuis'
+        access:
+          label: 'Dernier accès'
+        operations:
+          label: Actions
+      filters:
+        status:
+          group_info:
+            label: État
+            group_items:
+              1:
+                title: Actif
+              2:
+                title: Bloqué
+        permission:
+          expose:
+            label: Droit
+  page_1:
+    display_title: Page
+    display_options:
+      menu:
+        title: Lister

@@ -1,0 +1,12 @@
+uuid: b06298c3-4078-4e55-a548-ce3bc4b92478
+langcode: en
+status: true
+dependencies: {  }
+id: contact_us
+label: 'Contact US'
+recipients:
+  - johndoe@email.com
+reply: ''
+weight: 0
+message: ''
+redirect: ''

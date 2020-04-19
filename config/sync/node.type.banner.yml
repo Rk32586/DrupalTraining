@@ -1,0 +1,17 @@
+uuid: f47d603d-7825-4a62-a954-59156ddf8da5
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Banner
+type: banner
+description: 'Use this content type to update the front page banner'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

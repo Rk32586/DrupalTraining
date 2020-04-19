@@ -1,0 +1,24 @@
+display:
+  default:
+    display_options:
+      exposed_form:
+        options:
+          submit_button: Filtrer
+          reset_button_label: Réinitialiser
+      fields:
+        filename:
+          label: Nom
+        filesize:
+          label: Taille
+        status:
+          label: État
+      filters:
+        status:
+          expose:
+            label: État
+  page_2:
+    display_options:
+      arguments:
+        fid:
+          exception:
+            title: Tout

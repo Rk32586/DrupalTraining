@@ -1,0 +1,172 @@
+uuid: 63e8d51c-f2f8-495a-b810-120071db6be1
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_display.comment.comment.default
+    - field.field.node.article.body
+    - field.field.node.article.comment
+    - field.field.node.article.field_image
+    - field.field.node.article.field_tags
+    - field.field.node.article.layout_builder__layout
+    - image.style.large
+    - node.type.article
+  content:
+    - 'block_content:basic:e96bc43e-796c-4893-bc0e-17bf49ee591b'
+  module:
+    - block_content
+    - comment
+    - image
+    - layout_builder
+    - text
+    - user
+third_party_settings:
+  layout_builder:
+    allow_custom: true
+    enabled: true
+    sections:
+      -
+        layout_id: layout_twocol_section
+        layout_settings:
+          column_widths: 67-33
+        components:
+          86c56db5-953d-4473-a2a2-31b85f248518:
+            uuid: 86c56db5-953d-4473-a2a2-31b85f248518
+            region: first
+            configuration:
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              id: 'field_block:node:article:field_tags'
+              formatter:
+                type: entity_reference_label
+                label: above
+                settings:
+                  link: true
+                third_party_settings: {  }
+            additional: {  }
+            weight: 0
+          2681915e-eac4-4720-b943-7471a25628e5:
+            uuid: 2681915e-eac4-4720-b943-7471a25628e5
+            region: first
+            configuration:
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              id: 'field_block:node:article:body'
+              formatter:
+                type: text_default
+                settings: {  }
+                third_party_settings: {  }
+                label: hidden
+            additional: {  }
+            weight: 2
+          0b3093f1-2a8c-40af-a645-e5e81e04abda:
+            uuid: 0b3093f1-2a8c-40af-a645-e5e81e04abda
+            region: first
+            configuration:
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              id: 'extra_field_block:node:article:links'
+            additional: {  }
+            weight: 3
+          b8673837-adf2-47c4-8d23-dbbbf3be1a9a:
+            uuid: b8673837-adf2-47c4-8d23-dbbbf3be1a9a
+            region: first
+            configuration:
+              id: 'field_block:node:article:field_image'
+              label: Image
+              provider: layout_builder
+              label_display: '0'
+              formatter:
+                label: hidden
+                type: image
+                settings:
+                  image_style: max_1300x1300
+                  image_link: ''
+                third_party_settings: {  }
+              context_mapping:
+                entity: layout_builder.entity
+            additional: {  }
+            weight: 1
+          3775b89f-1c76-4abc-ab05-87b6bf4777c0:
+            uuid: 3775b89f-1c76-4abc-ab05-87b6bf4777c0
+            region: first
+            configuration:
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              id: 'field_block:node:article:comment'
+              formatter:
+                type: comment_default
+                label: above
+                settings:
+                  view_mode: default
+                  pager_id: 0
+                third_party_settings: {  }
+            additional: {  }
+            weight: 4
+          a83379c8-7aac-4304-98d1-5464bf9a6c5a:
+            uuid: a83379c8-7aac-4304-98d1-5464bf9a6c5a
+            region: second
+            configuration:
+              id: 'block_content:e96bc43e-796c-4893-bc0e-17bf49ee591b'
+              label: 'My philosophy'
+              provider: block_content
+              label_display: visible
+              status: true
+              info: ''
+              view_mode: full
+              context_mapping: {  }
+            additional: {  }
+            weight: 0
+        third_party_settings: {  }
+_core:
+  default_config_hash: ChmU3AVqDKU32A_fyChG0W9dTRKmVBR58B6OClCLvZI
+id: node.article.default
+targetEntityType: node
+bundle: article
+mode: default
+content:
+  body:
+    type: text_default
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+    label: hidden
+  comment:
+    type: comment_default
+    weight: 110
+    region: content
+    label: above
+    settings:
+      view_mode: default
+      pager_id: 0
+    third_party_settings: {  }
+  field_image:
+    type: image
+    weight: -1
+    region: content
+    settings:
+      image_style: large
+      image_link: ''
+    third_party_settings: {  }
+    label: hidden
+  field_tags:
+    type: entity_reference_label
+    weight: 10
+    region: content
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+  links:
+    weight: 100
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  langcode: true
+  layout_builder__layout: true

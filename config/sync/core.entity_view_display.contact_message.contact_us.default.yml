@@ -1,0 +1,20 @@
+uuid: 8face76a-9512-438c-bee8-885549bf8d8d
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.contact_us
+id: contact_message.contact_us.default
+targetEntityType: contact_message
+bundle: contact_us
+mode: default
+content:
+  message:
+    type: basic_string
+    weight: 0
+    label: above
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  langcode: true

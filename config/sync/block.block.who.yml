@@ -1,0 +1,31 @@
+uuid: d86bb75e-71c5-44ba-8e24-97774f674746
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:05a021c7-e8aa-4d8c-94fe-5e23d12cebf7'
+  module:
+    - block_content
+    - system
+  theme:
+    - eg
+id: who
+theme: eg
+region: front
+weight: 0
+provider: null
+plugin: 'block_content:05a021c7-e8aa-4d8c-94fe-5e23d12cebf7'
+settings:
+  id: 'block_content:05a021c7-e8aa-4d8c-94fe-5e23d12cebf7'
+  label: Who
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

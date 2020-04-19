@@ -1,0 +1,15 @@
+uuid: 770ffab1-4e45-405b-b79b-27f1f0ccd528
+langcode: en
+status: true
+dependencies: {  }
+name: eggridima
+label: eggridimage
+effects:
+  e5d060e5-a5fb-4ca5-bdab-2d221312fab9:
+    uuid: e5d060e5-a5fb-4ca5-bdab-2d221312fab9
+    id: image_scale
+    weight: 1
+    data:
+      width: 300
+      height: 150
+      upscale: false

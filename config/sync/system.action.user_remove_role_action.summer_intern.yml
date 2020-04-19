@@ -1,0 +1,14 @@
+uuid: 19bfe944-cf01-4260-b4f0-710c40b12542
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.summer_intern
+  module:
+    - user
+id: user_remove_role_action.summer_intern
+label: 'Remove the Summer Intern role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: summer_intern

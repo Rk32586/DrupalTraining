@@ -1,0 +1,15 @@
+uuid: d9c03276-cb4d-4df9-89d5-d4580d56bc48
+langcode: en
+status: true
+dependencies: {  }
+name: photo_gallery_of_logos
+label: 'Photo Gallery of Logos'
+effects:
+  cef4a9db-6bb8-488a-9e1d-e8d16cd4e1c4:
+    uuid: cef4a9db-6bb8-488a-9e1d-e8d16cd4e1c4
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 300
+      height: 300
+      anchor: center-center

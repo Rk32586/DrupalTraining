@@ -1,0 +1,17 @@
+uuid: 4b283cdb-10af-4377-b05f-d4724a2a0858
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: 'User Groups'
+type: user_groups
+description: 'This is where we track the user groups'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

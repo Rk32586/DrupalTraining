@@ -1,0 +1,22 @@
+uuid: e880fe49-6cfe-4586-beb5-9df015a0398d
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - mayo
+_core:
+  default_config_hash: KHQIJ7Vfl25lTjzIc7qIvnuistt-Mw2O0kG4jCofmkI
+id: mayo_messages
+theme: mayo
+region: footer
+weight: -8
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

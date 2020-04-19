@@ -1,0 +1,17 @@
+uuid: 6e56ea07-4e1b-4de0-8b25-23223134e12a
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Services
+type: services
+description: 'Use this to describe service'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

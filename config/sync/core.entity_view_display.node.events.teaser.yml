@@ -1,0 +1,74 @@
+uuid: 3fc3a6c4-45d6-4cbc-b786-9259ac6f886c
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.events.body
+    - field.field.node.events.field_event_date
+    - field.field.node.events.field_event_logo
+    - field.field.node.events.field_event_sponsors
+    - field.field.node.events.field_event_topics
+    - field.field.node.events.field_event_website
+    - field.field.node.events.field_phone
+    - image.style.thumbnail
+    - node.type.events
+  module:
+    - datetime
+    - image
+    - link
+    - text
+    - user
+id: node.events.teaser
+targetEntityType: node
+bundle: events
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 3
+    settings:
+      trim_length: 400
+    third_party_settings: {  }
+    region: content
+  field_event_date:
+    type: datetime_default
+    weight: 2
+    region: content
+    label: inline
+    settings:
+      timezone_override: Asia/Kolkata
+      format_type: medium
+    third_party_settings: {  }
+  field_event_logo:
+    type: image
+    weight: 0
+    region: content
+    label: hidden
+    settings:
+      image_style: thumbnail
+      image_link: content
+    third_party_settings: {  }
+  field_event_website:
+    type: link
+    weight: 1
+    region: content
+    label: inline
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+  links:
+    weight: 4
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  field_event_sponsors: true
+  field_event_topics: true
+  field_phone: true
+  langcode: true

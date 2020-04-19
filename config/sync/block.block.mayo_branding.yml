@@ -1,0 +1,25 @@
+uuid: 2743243f-0ef2-47fc-b39b-2c16f834a804
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - mayo
+_core:
+  default_config_hash: NDwadleLD3YVSbDUaakxyYZyINYtkFtOVGShfq4kWy8
+id: mayo_branding
+theme: mayo
+region: header
+weight: -8
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  provider: system
+  label_display: '0'
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: true
+visibility: {  }

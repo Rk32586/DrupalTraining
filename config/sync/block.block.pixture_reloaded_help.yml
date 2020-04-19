@@ -1,0 +1,22 @@
+uuid: 4f257291-f888-4a53-bc29-3eda126b4853
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - pixture_reloaded
+_core:
+  default_config_hash: cfQ08QcOH52OdNeme1-H4KPH4UxngNrduMKBZoRG2a0
+id: pixture_reloaded_help
+theme: pixture_reloaded
+region: content
+weight: 2
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }
